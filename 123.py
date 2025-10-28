@@ -1,4 +1,4 @@
-nombre = input("Ingrese su nombre:  ")
+nombre = input("Ingrese su nombre:   ")
 edad = int(input("Ingrese su edad:  "))
 print(f" hola mi nombre es {nombre} tengo {edad} años")
 if edad >= 18:
