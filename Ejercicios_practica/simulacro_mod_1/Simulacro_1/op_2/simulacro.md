@@ -15,6 +15,15 @@ evaluar el rendimiento del inventario con base en las ventas realizadas.
 
 ## Requisitos Funcionales
 
+
+## Criterios de Aceptación
+
+-   El sistema inicia con al menos 5 productos precargados.\
+-   Todas las interacciones deben estar en inglés.\
+-   Seguir buenas prácticas de codificación.\
+-   Programa ejecutado por consola con menú interactivo.\
+-   Manejo adecuado de excepciones sin cierres abruptos.
+
 ### 1. Gestión del inventario
 
 -   Registrar, consultar, actualizar y eliminar productos.\
@@ -63,11 +72,3 @@ evaluar el rendimiento del inventario con base en las ventas realizadas.
 
 -   Usar diccionarios anidados y listas.\
 -   Aplicar búsquedas y agrupamientos eficientes.
-
-## Criterios de Aceptación
-
--   El sistema inicia con al menos 5 productos precargados.\
--   Todas las interacciones deben estar en inglés.\
--   Seguir buenas prácticas de codificación.\
--   Programa ejecutado por consola con menú interactivo.\
--   Manejo adecuado de excepciones sin cierres abruptos.
