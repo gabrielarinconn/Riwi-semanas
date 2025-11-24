@@ -58,3 +58,6 @@ Si te encuentras con errores de permisos, puedes utilizar este comando:
 # Repo 📖
 
 Puedes encontrar el reposiorio en gitHub [GitHub](https://github.com/gabrielarinconn/Riwi-semanas.git)
+
+RUTA
+Riwi-semanas   --->     /Riwi_Examen_GabrielaRincon/
