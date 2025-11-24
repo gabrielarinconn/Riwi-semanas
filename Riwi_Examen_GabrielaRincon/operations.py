@@ -267,6 +267,7 @@ def display_sales_history():
 
 # --- 3. Reporting Module Functions ---
 
+
 def report_top_selling_products():
     """Report: Top 3 Books most sold"""
     if not sales_history:
