@@ -6,7 +6,22 @@ Sistema Integral de Gestión de Inventario y Ventas con Reportes Dinámicos
 
 Como encargado del área digital de una librería nacional, necesitas un sistema robusto que no solo permita registrar ventas y productos, sino también generar reportes detallados, aplicar descuentos por cliente, agrupar estadísticas por autor y evaluar el rendimiento del inventario con base en ventas.
 
-# Requisitos Funcionales 📋
+### Pre-requisitos 📋
+
+Tener instalado Python 3.12.3
+Como actaulizar:
+     sudo apt update
+     sudo apt install python3
+
+Si te encuentras con errores de permisos, puedes utilizar este comando:
+     python3 -m pip install --upgrade pip --user
+
+
+### Autores ✒️
+
+* **Gabriela Rincón** - *Desarrollo* y *Documentación* 
+
+### Requisitos Funcionales 📋
 
 1. Gestión del inventario
     * Registrar, consultar, actualizar y eliminar productos.
@@ -26,15 +41,20 @@ Como encargado del área digital de una librería nacional, necesitas un sistema
     * Se deben usar funciones con parámetros y retorno.
     * Uso de funciones lambda para cálculos agregados.
 
-# Be a coder
+### Be a coder
 6. Almacenamiento en estructuras de datos
     * Utilizar diccionarios anidados y listas para almacenar productos y ventas.
     * Agrupaciones y búsquedas deben usar métodos y estructuras eficientes.
 
-# Criterios de Aceptación
+### Criterios de Aceptación
 
 * El sistema debe iniciar con al menos 5 productos pre-cargados.
 * Todas las interacciones deben estar en inglés, incluidos comentarios, mensajes y documentación.
 * Se deben aplicar buenas prácticas de codificación: funciones claras, uso de constantes, validaciones.
 * El programa debe correr por consola y ofrecer un menú interactivo.
 * El código debe manejar excepciones sin que el programa se detenga abruptamente.
+
+
+# Repo 📖
+
+Puedes encontrar el reposiorio en gitHub [GitHub](https://github.com/gabrielarinconn/Riwi-semanas.git)
