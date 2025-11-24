@@ -1,5 +1,6 @@
 import datetime
 import data_manager as dm 
+import inventory_sales
 
 # --- 1. Utility Function ---
 def get_valid_input(prompt, data_type=str, min_val=None):
