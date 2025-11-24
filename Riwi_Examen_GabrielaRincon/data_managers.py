@@ -1,10 +1,10 @@
 import json
 import os
 
-# --- Configuración de Archivos ---
+# --- Configuration the Fields ---
 DATA_FILE = 'store_data.json'
 
-# --- Estructuras de Datos Globales ---
+# ---  Datos Globales ---
 inventory_ = []
 sales_history = []
 next_product_id = 1

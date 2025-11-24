@@ -2,7 +2,7 @@ import time
 from collections import Counter
 import data_managers # Importa estructuras de datos y persistencia
 
-# Referencias a las estructuras de datos globales y constantes
+# Datos globales y constantes
 inventory_ = data_managers.inventory_
 sales_history = data_managers.sales_history
 DISCOUNT_RATES = data_managers.DISCOUNT_RATES
@@ -221,7 +221,7 @@ def register_sale():
         'sale_date': time.strftime("%Y-%m-%d %H:%M:%S")
     }
     
-    # Actualizar inventario y registrar venta
+    # Update inventary and add sells
     product['stock'] -= quantity
     sales_history.append(sale_data)
     data_managers.next_sale_id += 1
@@ -250,7 +250,7 @@ def display_sales_history():
     print(header_line)
     print("-" * 120)
     
-    # USO DE ENUMERATE
+    # Use ENUMERATE
     for index, sale in enumerate(sales_history, 1):
         row = (
             f"{index:<{widths[0]}}" # Added enumeration index
@@ -280,7 +280,7 @@ def report_top_selling_products():
     print("🏆 Top 3 Most Sold Books")
     print("="*50)
     
-    # USO DE ENUMERATE
+    # Use ENUMERATE
     for rank, (title, total_qty) in enumerate(top_products, 1):
         print(f"{rank}. **{title}**: {total_qty} units sold")
     print("="*50)
@@ -299,7 +299,7 @@ def report_top_selling_author():
     print("🏆 Top 3 best-selling Authors")
     print("="*50)
     
-    # USO DE ENUMERATE
+    # Use ENUMERATE
     for rank, (title, total_qty) in enumerate(top_products, 1):
         print(f"{rank}. **{title}**: {total_qty} units sold")
     print("="*50)
