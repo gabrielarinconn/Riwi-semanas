@@ -17,6 +17,18 @@ Si te encuentras con errores de permisos, puedes utilizar este comando:
      python3 -m pip install --upgrade pip --user
 
 
+### Cómo ejecutar
+
+Archivos
+
+| Nombre  | Que hace |
+| ------------- | ------------- |
+| main.py   | Archivo principal que importa los modulos de los otros archivos |
+| data_managers.py  | Contiene el diccionario y almacenamiento de las modificacion que se hacen en el CRUD   |
+| operations.py  | Contiene todas las operaciones de CRUD  |
+
+Para ejecutar el inventario se hace desde el archivo main.py
+
 ### Autores ✒️
 
 * **Gabriela Rincón** - *Desarrollo* y *Documentación* 
