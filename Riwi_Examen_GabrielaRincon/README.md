@@ -64,11 +64,11 @@ Para ejecutar el inventario se hace desde el archivo main.py
 
 ### Criterios de Aceptación
 
-* El sistema debe iniciar con al menos 5 productos pre-cargados.
-* Todas las interacciones deben estar en inglés, incluidos comentarios, mensajes y documentación.
-* Se deben aplicar buenas prácticas de codificación: funciones claras, uso de constantes, validaciones.
-* El programa debe correr por consola y ofrecer un menú interactivo.
-* El código debe manejar excepciones sin que el programa se detenga abruptamente.
+- [ ] El sistema debe iniciar con al menos 5 productos pre-cargados.
+- [ ] Todas las interacciones deben estar en inglés, incluidos comentarios, mensajes y documentación.
+- [ ] Se deben aplicar buenas prácticas de codificación: funciones claras, uso de constantes, validaciones.
+- [ ] El programa debe correr por consola y ofrecer un menú interactivo.
+- [ ] El código debe manejar excepciones sin que el programa se detenga abruptamente.
 
 
 # Repo 📖
