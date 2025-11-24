@@ -10,11 +10,15 @@ Como encargado del área digital de una librería nacional, necesitas un sistema
 
 Tener instalado Python 3.12.3
 Como actaulizar:
+```
      sudo apt update
      sudo apt install python3
+```
 
 Si te encuentras con errores de permisos, puedes utilizar este comando:
+```
      python3 -m pip install --upgrade pip --user
+```
 
 
 ### Cómo ejecutar
